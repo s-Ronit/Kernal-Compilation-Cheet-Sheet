@@ -109,4 +109,17 @@ This method has been adapted from [kernel compile notes] with few aditions based
     sudo update-grub
     ```
  11. Check weather grub loader is giving you advance options or not. if you are not getting grub advance options reboot the system you will get.
-11. Done !! 
+11. Done !!
+
+##   Modprobe
+modprobe - Add and remove (enable/disable) modules from the Linux Kernel Syntax
+```bash
+   # enable
+   modprobe <module_name>
+   # disable
+   modprobe -r <module_name>
+```
+## List of of active modules
+   ```
+      lsmod
+   ```
