@@ -126,13 +126,13 @@ This method has been adapted from [kernel compile notes](https://askubuntu.com/q
 
 ##   Modprobe
 modprobe - Add and remove (enable/disable) modules from the Linux Kernel Syntax
-```bash
+   ```bash
    # enable
    modprobe <module_name>
    # disable
    modprobe -r <module_name>
-```
+   ```
 ## List of of active modules
    ```
-      lsmod
+   lsmod
    ```
