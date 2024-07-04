@@ -1,21 +1,21 @@
 # Debian Based Linux Kernel Compilation  (Ubuntu/Debian/Kali/Rpi)
 
 This repository contanis some useful command to play around the Debian based linux kernel.
-## Check current Kernel present in your system.
-Check current Kernal Version
-     ```bash
-      uname -r
-    ```
-Sample Output.
-   ```bash
-     6.5.0-27-generic
+
+## Check current Kernal.
+1. Check current kernel version.
    ```
-
-
-## Check List Of Installed Kernel Present On Your Machine
-  ```bash
-   dpkg --list | grep linux-image
-  ```
+   uname -r
+   ```
+2. Sample Output.
+     ```bash
+     6.5.0-27-generic
+     ```
+## Installed Kernel Present On Your Machine
+3. List of Installed Kernel.
+     ```bash
+     dpkg --list | grep linux-image
+     ```
 Sample Output:-
 
 Do not confused between installed kernel and using kernal even it is different, it will work.
