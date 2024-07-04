@@ -101,7 +101,7 @@ This method has been adapted from [kernel compile notes](https://askubuntu.com/q
    sudo make install
    ```
 7. On running command "sudo make install" you might face error.
-   **error!!, Memetest86+ needs a 16-bit boot, that is not available on EFI, exiting.** (ignore it)
+   <br/><br/> **error!! Memetest86+ needs a 16-bit boot, that is not available on EFI, exiting.** (ignore it)
     ![image](https://github.com/s-Ronit/Kernal-Compilation-Cheet-Sheet/assets/144111150/e9ca3bb7-2201-4565-8237-f6e37188dc64)
 8. install grub 
     ```bash
